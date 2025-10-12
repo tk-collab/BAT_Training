@@ -1,6 +1,7 @@
 ::コマンドを非表示
 @echo off
 echo 作業環境を準備中...
+call config.bat
 
 start /MAX chrome
 
