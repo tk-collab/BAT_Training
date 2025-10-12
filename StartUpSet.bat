@@ -12,8 +12,8 @@ start /MAX chrome --new-window "https://keep.google.com/u/0/#home"
 ::Edgeが/MAX非対応のため画面サイズを調整
 start msedge --window-size=1920,1080 --window-position=0,0
 ::Explorerは同一行複数タブ設定不可
-start /MAX explorer "%USERPROFILE%\OneDrive\ドキュメント\転職活動関係\応募書類"
-start /MAX explorer "%USERPROFILE%\OneDrive\ドキュメント\転職活動関係"
-start /MAX excel "%USERPROFILE%\OneDrive\ドキュメント\転職活動関係\応募履歴 - Spreadsheet1.xlsm"
+start /MAX explorer "%EXPLORER1%"
+start /MAX explorer "%EXPLORER2%"
+start /MAX excel "%EXCEL_FILE1%"
 
 echo 準備完了！
