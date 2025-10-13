@@ -7,3 +7,5 @@ Create BAT file for both learning one and practical task.
 ### (i). PC起動時及びオンデマンドで実行できる環境セットアップBAT(StartUpSet.bat)
 "設定>StartUp"では実現できない特定タブ、新規ウィンドウの立ち上げなど。  
 <メモ>：/MAXで画面最大化。
+### (ii). タスクスケジューラー管理のDownloadフォルダの古いファイル自動削除(TidyUpDownloadFolder.bat)  
+90日以上前のファイルを"一次退避"に移動し、さらにその中の270日以上前のファイルのファイルを削除
