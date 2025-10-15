@@ -11,7 +11,7 @@ timeout /t 2 /nobreak >nul
 start /MAX chrome --new-window "https://translate.google.com/"
 start /MAX chrome --new-window "https://keep.google.com/u/0/#home"
 ::Edgeが/MAX非対応のため画面サイズを調整
-start msedge --window-size=1920,1080 --window-position=0,0
+start msedge --window-size=1920,1200 --window-position=0,0
 ::Explorerは同一行複数タブ設定不可
 start /MAX explorer "%EXPLORER1%"
 start /MAX explorer "%EXPLORER2%"
