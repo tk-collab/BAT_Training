@@ -9,3 +9,5 @@ Setting impossible in "Setting>StarUp" such as starting up specific tab and new 
 *Maximize the screen with /MAX etc.
 ### (ii). Automatic deletion of old files within Download folder
 Move files before more than 90 days and delete before more than 270 days among them.
+### (iii). PacketCapture with Wireshark upon ping failed.
+When something like connection trouble happens, only executing the batch file gets .pcapng file.

@@ -9,3 +9,5 @@ Create BAT file for both learning one and practical task.
 <メモ>：/MAXで画面最大化等。
 ### (ii). タスクスケジューラー管理のDownloadフォルダの古いファイル自動削除(TidyUpDownloadFolder.bat)  
 90日以上前のファイルを"一次退避"に移動し、さらにその中の270日以上前のファイルのファイルを削除
+### (iii). Ping失敗に伴うWiresharkによるパケットキャプチャー自動処理
+何か接続不具合があったときにバッチを実行するだけでping失敗の場合.pcapngファイルを取得する。
