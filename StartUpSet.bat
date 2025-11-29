@@ -20,6 +20,7 @@ timeout /t 2 /nobreak >nul
 
 start /MAX chrome --new-window "https://translate.google.com/"
 start /MAX chrome --new-window "https://keep.google.com/u/0/#home"
+start /MAX chrome --new-window "https://gemini.google.com/app"
 
 timeout /t 2 /nobreak >nul
 
