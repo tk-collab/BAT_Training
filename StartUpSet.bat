@@ -39,4 +39,8 @@ start /MAX explorer "%EXPLORER2%"
 start /MAX explorer "%EXPLORER3%"
 start /MAX excel "%EXCEL_FILE1%"
 
+timeout /t 2 /nobreak >nul
+
+start /MAX outlook
+
 echo €”õŠ®—¹I

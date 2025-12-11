@@ -21,6 +21,13 @@ if ($proc) {
     [Win]::ShowWindowAsync($proc.MainWindowHandle, 3)  # 3 = SW_MAXIMIZE
 }
 #>
+# $PwaShortcutPath = "C:\Program Files (x86)\Microsoft\Edge\Application\msedge_proxy.exe"  --profile-directory=Default --app-id=cadlkienfkclaiaibeoongdcgmdikeeg --app-url=https://chatgpt.com/ --app-run-on-os-login-mode=windowed --app-launch-source=19
+# Start-Process -FilePath $PwaShortcutPath
+
+$EdgeExe = "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
+$AppId = "--app-id=cadlkienfkclaiaibeoongdcgmdikeeg" 
+Start-Process -FilePath $EdgeExe -ArgumentList $AppId
+
 Start-Process "C:\Users\katot\AppData\Local\AnthropicClaude\claude.exe"
 Start-Sleep -Seconds 4
 
