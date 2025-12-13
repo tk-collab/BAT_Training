@@ -27,6 +27,12 @@ if ($proc) {
 $EdgeExe = "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
 $AppId = "--app-id=cadlkienfkclaiaibeoongdcgmdikeeg" 
 Start-Process -FilePath $EdgeExe -ArgumentList $AppId
+$ChromeExe = "C:\Program Files\Google\Chrome\Application\chrome_proxy.exe"
+$AppId_Keep = "--app-id=eilembjdkfgodjkcjnpgpaenohkicgjd"
+Start-Process -FilePath $CromeExe -ArgumentList $AppId_Keep
+$ChromeExe = "C:\Program Files\Google\Chrome\Application\chrome_proxy.exe"
+$AppId_Translate = "--app-id=edanbjnaiofggfmimiidpfmhggkbokck"
+Start-Process -FilePath $CromeExe -ArgumentList $AppId_Translate
 
 Start-Process "C:\Users\katot\AppData\Local\AnthropicClaude\claude.exe"
 Start-Sleep -Seconds 4
