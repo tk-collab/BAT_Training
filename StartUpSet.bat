@@ -43,6 +43,10 @@ timeout /t 2 /nobreak >nul
 
 start /MAX outlook
 
+timeout /t 2 /nobreak >nul
+
+start /MAX "" "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\DeepL.lnk"
+
 echo €”õŠ®—¹I
 
 timeout /t 20
