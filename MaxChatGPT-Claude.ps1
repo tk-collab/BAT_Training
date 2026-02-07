@@ -53,8 +53,8 @@
 $ChromeExe = "C:\Program Files\Google\Chrome\Application\chrome.exe"
 $AppId_Keep = "--app-id=eilembjdkfgodjkcjnpgpaenohkicgjd"
 Start-Process -FilePath $ChromeExe -ArgumentList $AppId_Keep -WindowStyle Maximized
-# $AppId_Translate = "--app-id=edanbjnaiofggfmimiidpfmhggkbokck"
-# Start-Process -FilePath $ChromeExe -ArgumentList $AppId_Translate -WindowStyle Maximized
+$AppId_Translate = "--app-id=edanbjnaiofggfmimiidpfmhggkbokck"
+Start-Process -FilePath $ChromeExe -ArgumentList $AppId_Translate -WindowStyle Maximized
 
 Start-Process "C:\Users\katot\AppData\Local\AnthropicClaude\claude.exe"
 Start-Sleep -Seconds 5
