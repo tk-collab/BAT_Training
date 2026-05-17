@@ -1,5 +1,5 @@
 # BAT_Training
-Create BAT file for both learning one and practical task.
+Create BAT file for daily routine task efficiency.
 
 ## 1. 目的  
 社内ITサポートや運用保守などで利用されるBATファイルを練習するとともに実タスクでも重宝するサンプルファイルを作成する。
